@@ -1,0 +1,62 @@
+.App-userSuggestion{
+    font-size: 2vh;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.App-suggestion-item{
+    word-break: break-all;
+}
+
+label {
+    padding: 5px 5px 0px 5px;
+    display: block;
+}
+
+textarea {
+    padding: 5px;
+    font-size: 2vh;
+    width: 100%;
+}
+
+.userSuggestionsTable{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid white;
+}
+
+.userSuggestion{
+    word-break: break-all;
+    flex: 1;
+    padding: 5px;
+}
+
+.App-CompanyUserSuggestion .companySuggestionThumbsUp{
+    font-size:36px;
+    padding: 0px 5px 0px 5px;
+}
+
+.App-CompanyUserSuggestion .companySuggestionThumbsDown{
+    font-size:36px;
+    padding: 0px 5px 9px 5px;
+}
+
+.App-CompanyUserSuggestion .companySuggestionUnrated{
+    font-size:36px;
+    padding: 5px;
+}
+
+.companySuggestionTrash{
+    font-size:36px;
+    color: red;
+    padding: 5px;
+}
+
+
+.companySuggestionTrash:hover{
+    font-size:36px;
+    color: orange;
+    cursor: pointer;
+}

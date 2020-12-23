@@ -1,0 +1,51 @@
+.companySuggestionsTable{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid white;
+}
+
+.companySuggestion{
+    word-break: break-all;
+    flex: 1;
+    padding: 5px;
+}
+
+.companySuggestionsTable .companySuggestionThumbsUp{
+    font-size:36px;
+    padding: 5px;
+}
+
+.companySuggestionsTable .companySuggestionThumbsDown{
+    font-size:36px;
+    padding: 5px;
+}
+
+.companySuggestionsTable .companySuggestionThumbsUp.active,
+.companySuggestionsTable .companySuggestionThumbsDown.active {
+    color: #60b3ce;
+}
+
+.companySuggestionsTable .companySuggestionThumbsUp:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+
+.companySuggestionsTable .companySuggestionThumbsDown:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.companySuggestionTrash{
+    font-size:36px;
+    color: red;
+    padding: 5px;
+}
+
+
+.companySuggestionTrash:hover{
+    color: orange;
+    cursor: pointer;
+}

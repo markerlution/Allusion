@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+}
+
+
+.App-Login{
+    color: white;
+    margin: 20px auto;
+    width: 800px;
+    border: 1px solid white;
+}

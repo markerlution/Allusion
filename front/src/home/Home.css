@@ -1,0 +1,27 @@
+.App-Home{
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+}
+
+.intro-text{
+    margin: 10px;
+}
+
+.get-started-container .link{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    color: #282c34;
+}
+
+.get-started-container .link:hover {
+
+    color: white;
+    border: 1px solid white;
+    background-color: #282c34;
+
+}

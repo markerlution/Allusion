@@ -1,0 +1,34 @@
+.App-ManageCompanyUsers h1{
+    color: white;
+}
+
+.App-Login .App-FormGroup{
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.companyUsersEmail{
+    flex: 1;
+    padding: 5px;
+}
+
+.companyUsersTable{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid white;
+}
+
+.companyUserTrash{
+    font-size:36px;
+    color: red;
+    padding: 5px;
+}
+
+.companyUserTrash:hover{
+    font-size:36px;
+    color: orange;
+    cursor: pointer;
+}
